@@ -12,6 +12,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "build:gh": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "static": "node server"
