@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-index-js",
     "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Tools of the Trade","date":"July 25, 2021"},"id":"3e4469f3-8324-5435-9ce8-90b3913f98c3","slug":"tools-of-the-trade/"},{"frontmatter":{"title":"Cute Doggies","date":"July 24, 2021"},"id":"a40d40b9-eb14-56e0-9e6a-ea3a4179f842","slug":"cute-doggies/"},{"frontmatter":{"title":"Snap Building Gunpla","date":"July 24, 2021"},"id":"3f0c82e5-6186-5df8-883a-e2de3aac4699","slug":"snap-building-gunpla/"},{"frontmatter":{"title":"My First Post","date":"July 23, 2021"},"id":"039c98ed-8bdb-5202-8bf9-e67899d2ee93","slug":"my-first-post/"}]}},"pageContext":{}},
-    "staticQueryHashes": ["3159585216"]}
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"How To Create a React App Using CRA","date":"August 23, 2021"},"id":"392acf89-0425-5545-a09d-aee1acd2a4ac","slug":"create-cra-app/"},{"frontmatter":{"title":"Tools of the Trade","date":"July 25, 2021"},"id":"3e4469f3-8324-5435-9ce8-90b3913f98c3","slug":"tools-of-the-trade/"},{"frontmatter":{"title":"Cute Doggies","date":"July 24, 2021"},"id":"a40d40b9-eb14-56e0-9e6a-ea3a4179f842","slug":"cute-doggies/"},{"frontmatter":{"title":"Snap Building Gunpla","date":"July 24, 2021"},"id":"3f0c82e5-6186-5df8-883a-e2de3aac4699","slug":"snap-building-gunpla/"},{"frontmatter":{"title":"My First Post","date":"July 23, 2021"},"id":"039c98ed-8bdb-5202-8bf9-e67899d2ee93","slug":"my-first-post/"}]}},"pageContext":{}},
+    "staticQueryHashes": ["2978915379"]}
