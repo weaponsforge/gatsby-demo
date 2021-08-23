@@ -1,6 +1,6 @@
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 800px;
   font-family: sans-serif;
 }
 
@@ -27,4 +27,17 @@
   color: gray;
   font-weight: 700;
   margin: 3rem 0;
+}
+
+.nav-link-label {
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+.nav-link-label a {
+  text-decoration: none;
+}
+
+.nav-link-label a:hover {
+  color: burlywood;
 }

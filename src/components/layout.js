@@ -6,6 +6,7 @@ import {
   navLinks,
   navLinkItem,
   navLinkText,
+  navLinkLabel,
   siteTitle
 } from './layout.module.css'
 
@@ -17,7 +18,17 @@ const Layout = ({ pageTitle, children }) => {
           title
         }
       }
-    }  
+      allMdx(sort: {order: DESC, fields: frontmatter___date}) {
+        nodes {
+          frontmatter {
+            title
+            date(formatString: "MMMM D, YYYY")
+          }
+          id
+          slug
+        }
+      }
+    }
   `)
 
   return (
@@ -42,6 +53,15 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
         </ul>
+        {
+          data.allMdx.nodes.map(node => (
+            <span key={node.id} className={navLinkLabel}>
+              <Link to={`/blog/${node.slug}`} className={navLinkText}>
+                {node.frontmatter.title}
+              </Link>
+            </span>
+          ))
+        }
       </nav>
       <main>
         <h1 className={heading}>{pageTitle}</h1>
